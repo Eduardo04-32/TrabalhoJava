@@ -1,0 +1,9 @@
+CREATE DATABASE ProdutoDAO;
+USE ProdutoDAO;
+
+CREATE TABLE produtos (
+id INT PRIMARY KEY AUTO_INCREMENT,
+ titulo VARCHAR(50),
+ valor INT,
+ SetorProfuto VARCHAR(50)
+);
